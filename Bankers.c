@@ -13,7 +13,7 @@ int main()
         printf("Resource %d: ",i+1);
         scanf("%d",&avail[i]);
     }
-    int max[5][3];
+    int max[n][m];
     printf("Enter the \'MAX\' matrix: \n");
     for(i=0;i<n;i++){
         for(j=0;j<m;j++){
@@ -21,7 +21,7 @@ int main()
             scanf("%d",&max[i][j]);
         }
     }
-    int alloc[5][3];
+    int alloc[n][m];
     printf("Enter the \'Allocation\' matrix: \n");
     for(i=0;i<n;i++){
         for(j=0;j<m;j++){
